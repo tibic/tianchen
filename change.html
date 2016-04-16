@@ -1,0 +1,35 @@
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<script language='javascript'>
+    function checkpost() {
+     if(myform.user.value=='') {
+      alert('请输入用户名!');
+      myform.user.focus();
+      return false;
+      }
+     if(myform.password.value=='') {
+      alert('请输入原密码!');
+      myform.password.focus();
+      return false;
+      }
+     if(myform.npassword.value=='') {
+      alert('请输入新密码!');
+      myform.npassword.focus();
+      return false;
+      }
+     if(myform.npassword1.value=='') {
+      alert('请再次输入新密码!');
+      myform.npassword1.focus();
+      return false;
+      }
+}
+</script>
+<form action='change.php' method='post' name='myform' onsubmit='return checkpost();'>
+用户名：<input type='text' name='user'><br>
+原密码：<input type='password' name='password'><br>
+新密码：<input type='password' name='npassword'><br>
+新密码：<input type='password' name='npassword1'>&nbsp;&nbsp;再次输入密码<br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;<input type='submit' name='submit' value='确认'>
+&nbsp;&nbsp;<input type='reset' name='reset' value='取消'><br>
+</form>

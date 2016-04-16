@@ -1,0 +1,29 @@
+p{
+	color: #777777;
+}
+a:visited { text-decoration: none;color: #777777;}
+a:hover{text-decoration: none;color: #333333;}
+span{color: #666666;}
+
+
+    fieldset{max-width:250px; margin: 0 auto;}
+    legend{ font-size:14px;}
+    label{float:left; max-width:0px; margin-left:10px;}
+    .left{margin-left:50px;margin-top: 30px;}
+    .input{max-width:100px;border:1px solid #BDBDBD;border-radius: 5px;height: 25px;margin-left: 10px;}
+    span{color: #BDBDBD;}
+/**/
+#user{
+	max-width: 500px;
+	max-height: 700px;
+	border: 1px solid #BDBDBD;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	border-radius: 15px;
+}
+#usern{
+	margin-top: 20px;
+}
+
+

@@ -1,0 +1,14 @@
+
+a:visited { text-decoration: none;color: #777777;}
+a:hover{text-decoration: none;color: #333333;}
+
+ fieldset{
+ 	max-width:300px;
+ 	 margin: 0 auto;
+ 	}
+
+#one{
+	max-width: 300px;
+	float: left;
+}
+
